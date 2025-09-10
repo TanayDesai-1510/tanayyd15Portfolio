@@ -33,25 +33,24 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Software Developer",
+    title: "Software Engineer",
     companyName: "Rutgers OIT-EAS",
     description: [
-      "Working on the development of Rutgers University’s web portal, which is used over 70,000 students and faculty across three regional campuses.",
-      "Developing custom reusable and responsive components using React.js, which reduced development time by 30% and improving code maintainability by enabling component reuse across entire project.",
-      "Resolved bugs and identified errors, leading to 15% improvement in application performance.",
-      "Engineered dark mode features in the application increasing the user engagement by 20%.",
+      "Collaborating with cross-functional developers to modernize and optimize Rutgers University’s central web portal, an enterprise-scale platform supporting academic and student services, relied upon daily by over 70,000 students, faculty, and staff.",
+      "Developing custom, reusable, and responsive React.js components, significantly reducing overall development time by 30% and enhancing overall code maintainability, scalability, and cross-project performance across multiple applications.",
+      "Resolving critical software issues, improving overall system performance by 15% and providing a smoother user experience.",
+      "Engineered dark mode features, increasing user engagement by 20% while improving visual appeal and overall experience.",
     ],
     icon: React.createElement(FaReact),
     date: "Feb 2024 - Present",
   },
   {
-    title: "Front-End Developer",
+    title: "Front-End Engineern Intern",
     companyName: "Skillsvista",
     description: [
-      "Designed and developed 3+ responsive and user-friendly web application components using Vue.js for over 2000+ monthly users.",
-      "Leveraged Vuex for robust state management, enhancing data flow and maintaining application stability.",
-      "Identified 5+ critical bugs within the website, leading to a reduction in 15% reduction in support tickets.",
-      "Implemented UI/UX improvements which boosted the user engagement by 20%.",
+      "Designed and developed 3+ highly responsive and reusable web components using Vue.js, significantly improving user experience and overall performance for over 2,000+ monthly users, while ensuring seamless functionality across diverse devices and platforms.",
+      "Leveraged Vuex for robust and scalable state management, improving data flow, system stability, and overall application performance by ensuring consistent state synchronization across components and reducing potential errors.",
+      "Identified, diagnosed, and efficiently fixed 5+ critical software bugs across multiple modules, resulting in a 15% reduction in support tickets by significantly improving overall system stability, minimizing errors, and greatly enhancing the overall end-user experience.",
     ],
     icon: React.createElement(FaVuejs),
     date: "July 2022 - Aug 2022",

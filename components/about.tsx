@@ -19,7 +19,7 @@ export default function About() {
     >
       <SectionHeader>About me</SectionHeader>
       <p className="mb-3">
-        I'm a skilled <span className="font-bold">software developer</span> with
+        I'm a skilled <span className="font-bold">software engineer</span> with
         experience in <span className="font-bold">TypeScript</span> and{" "}
         <span className="font-bold">JavaScript</span>, and expertise in
         frameworks like <span className="font-bold">React.js</span> and{" "}
