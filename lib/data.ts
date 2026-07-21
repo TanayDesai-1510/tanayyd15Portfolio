@@ -1,8 +1,10 @@
 import React from "react";
 import { FaReact } from "react-icons/fa";
 import { FaVuejs } from "react-icons/fa";
+import { FaJava } from "react-icons/fa";
 import ruScarletSelector from "@/public/ruScarletSelector.png";
 import stampProject from "@/public/stampProject.png";
+import signalwatch from "@/public/signalwatch.png";
 
 export const links = [
   {
@@ -33,11 +35,22 @@ export const links = [
 
 export const experiencesData = [
   {
+    title: "Software Engineer Intern (Backend)",
+    companyName: "Vertex Inc.",
+    description: [
+      "Remediated 18 security vulnerabilities across backend Java/Maven services, including a critical improper-authentication flaw (Snyk priority 655/1000) that exposed paths for remote code execution and sensitive-data access.",
+      "Root-caused and fixed a data-integrity defect where soft-deleted certificates were incorrectly re-synced to O Series — including a subtle approval-workflow bug that silently flipped the delete flag from true to false — hardening sync-eligibility logic to exclude deleted records across all edits and state transitions.",
+      "Audited 50+ LaunchDarkly feature flags across Certificate Center via the LD REST API, driving cleanup of stale flags and their dead code paths to reduce config sprawl and production risk.",
+    ],
+    icon: React.createElement(FaJava),
+    date: "Jun 2026 - Aug 2026",
+  },
+  {
     title: "Software Engineer",
     companyName: "Rutgers OIT-EAS",
     description: [
-      "Collaborating with cross-functional developers to modernize and optimize Rutgers University’s central web portal, an enterprise-scale platform supporting academic and student services, relied upon daily by over 70,000 students, faculty, and staff.",
-      "Developing custom, reusable, and responsive React.js components, significantly reducing overall development time by 30% and enhancing overall code maintainability, scalability, and cross-project performance across multiple applications.",
+      "Collaborate with cross-functional developers to modernize and optimize Rutgers University’s central web portal, an enterprise-scale platform supporting academic and student services, relied upon daily by over 70,000 students, faculty, and staff.",
+      "Develop reusable and responsive React.js components, reducing development time by 30% while enhancing overall code maintainability, scalability, and cross-project performance, enabling faster feature delivery and long-term application stability.",
       "Resolving critical software issues, improving overall system performance by 15% and providing a smoother user experience.",
       "Engineered dark mode features, increasing user engagement by 20% while improving visual appeal and overall experience.",
     ],
@@ -58,6 +71,14 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
+  {
+    title: "SignalWatch",
+    description:
+      "An AI-powered app that monitors real-time BSE/NSE corporate announcements and uses Claude to summarize, categorize, and score them, delivering instant email and live alerts.",
+    tags: ["TypeScript", "Next.js", "React", "PostgreSQL"],
+    imageUrl: signalwatch,
+    liveUrl: "https://signalwatch-india.vercel.app/",
+  },
   {
     title: "STAMP",
     description:
